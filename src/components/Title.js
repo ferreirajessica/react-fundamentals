@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Title extends Component {
   render() {
-    const { headline } = this.props;
+    const { headline = 'Planetas' } = this.props;
     return (
       <h2>
         { headline }
